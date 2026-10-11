@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cyber-n-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="50%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <radialGradient id="red-dot-grad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF5252" />
+      <stop offset="60%" stop-color="#ED3327" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </radialGradient>
+    <filter id="emerald-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="red-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Deep cyber background tile -->
+  <rect width="64" height="64" rx="14" fill="#040907" stroke="#00FFA3" stroke-opacity="0.3" stroke-width="1.2" />
+
+  <!-- Bengal IT Agency circuit branches -->
+  <path d="M16 32 L16 38 L22 38" stroke="#00FFA3" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="22" cy="38" r="1.5" fill="#00FFA3" />
+  <path d="M18 36 L18 43 L26 43" stroke="#00FFA3" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="26" cy="43" r="1.5" fill="#00FFA3" />
+  <path d="M20 40 L20 48 L30 48" stroke="#00FFA3" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="30" cy="48" r="1.5" fill="#00FFA3" />
+
+  <!-- Main glowing Bengal IT emblem path -->
+  <path d="M20 20 C24 16 33 16 36 21 L47 38 L47 28 C47 24 47 20 50 20 C51 20 51 21 51 26 L51 46 C51 49 48 51 45 49 L34 32 L34 44 C34 48 31 50 28 50 C26 50 24 48 24 44 L24 28 C24 24 23 22 20 20 Z" fill="url(#cyber-n-grad)" filter="url(#emerald-glow)" />
+
+  <!-- Bangladesh crimson sun dot -->
+  <circle cx="49" cy="17" r="5.5" fill="url(#red-dot-grad)" filter="url(#red-glow)" />
+  <circle cx="47.5" cy="15.5" r="1.5" fill="#FFFFFF" fill-opacity="0.6" />
+</svg>

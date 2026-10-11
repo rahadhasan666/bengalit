@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage: Bengal IT Agency Bangladesh -->
+  <url>
+    <loc>https://bengalit.agency/</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bengalit.agency/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bengalit.agency/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://bengalit.agency/" />
+    <image:image>
+      <image:loc>https://bengalit.agency/assets/bengal-logo-badge.png</image:loc>
+      <image:title>Bengal IT Agency Bangladesh Official Badge</image:title>
+      <image:caption>বেঙ্গল আইটি এজেন্সী বাংলাদেশ - Founder: Md Labib Mridha (মোঃ লাবিব মৃধা)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bengalit.agency/assets/bengal-logo-full.png</image:loc>
+      <image:title>Bengal IT Agency Technology Banner</image:title>
+      <image:caption>Custom Web, Flutter Mobile Apps, Facebook Security &amp; Cyber Defense in Bangladesh</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Core Service Sections & Deep Anchors -->
+  <url>
+    <loc>https://bengalit.agency/#services</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#projects</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#tech-stack</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#why-bengal</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#about</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#faq</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bengalit.agency/#contact</loc>
+    <lastmod>2026-10-11T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

@@ -1,0 +1,43 @@
+# ==============================================================================
+# Bengal IT Agency Bangladesh (বেঙ্গল আইটি এজেন্সী বাংলাদেশ)
+# Founder & Chief Consultant: Md Labib Mridha (মোঃ লাবিব মৃধা)
+# Official Website: https://bengalit.agency/
+# Robots.txt - Optimized for Googlebot, Bingbot & Search Engine Crawlers
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /favicon.svg
+Allow: /favicon.png
+Allow: /apple-touch-icon.png
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Specific major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://bengalit.agency/sitemap.xml
